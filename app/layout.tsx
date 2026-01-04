@@ -29,6 +29,15 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
+   <div className="floating-icons">
+  <span>✨</span>
+  <span>✦</span>
+  <span>❈</span>
+  <span>💫</span>
+  <span>🌟</span>
+  <span>✧</span>
+</div>
+
         {children}
       </body>
     </html>

@@ -8,7 +8,7 @@ const projects = [
     title: "Metro Management System",
     description:
       "MERN Stack based metro project with routes, phases and live information.",
-    image: "/Img/Metro.jpg",
+    image: "/Img/metro.jpg",
     liveLink: "https://metro-system.vercel.app/",
   },
   {
