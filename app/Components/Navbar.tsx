@@ -36,7 +36,7 @@ export default function Navbar() {
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li onClick={() => setMenuOpen(false)}><Link href="/">Home</Link></li>
         <li onClick={() => setMenuOpen(false)}><Link href="/User/About">About</Link></li>
-        <li onClick={() => setMenuOpen(false)}><Link href="/User/Skill">Skills</Link></li>
+        <li onClick={() => setMenuOpen(false)}><Link href="/User/Skill">Skill</Link></li>
         <li onClick={() => setMenuOpen(false)}><Link href="/User/Project">Projects</Link></li>
         <li onClick={() => setMenuOpen(false)}><Link href="/User/Contact">Contact</Link></li>
       </ul>
